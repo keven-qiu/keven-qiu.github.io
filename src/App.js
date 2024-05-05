@@ -5,7 +5,6 @@ function App() {
     <div className="App">
     <header>
         <title>Keven Qiu</title>
-        <meta name="google-site-verification" content="21eJbv5WixaWclak6MvA3esxatoOP1BCPBNKCi37bYI"/>
     </header>
     <body>
         <div id="root">
