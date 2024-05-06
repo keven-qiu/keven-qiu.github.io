@@ -1,21 +1,7 @@
 import './App.css';
-import math235 from './notes/MATH235.pdf';
-import math237 from './notes/MATH237.pdf';
-import math239 from './notes/MATH239.pdf';
-import stat231 from './notes/STAT231.pdf';
-import cs341 from './notes/CS341.pdf';
-import cs350 from './notes/CS350.pdf';
-import cs365 from './notes/CS365.pdf';
-import cs370 from './notes/CS370.pdf';
-import cs466 from './notes/CS466_666.pdf';
-import cs480 from './notes/CS480_680.pdf';
-import co250 from './notes/CO250.pdf';
-import co330 from './notes/CO330.pdf';
-import co342 from './notes/CO342.pdf';
-import co351 from './notes/CO351.pdf';
-import co450 from './notes/CO450_650.pdf';
-import econ102 from './notes/ECON102.pdf';
-import calgPres from './presentations/End of Term Presentation.pptx'
+import Research from './Research';
+import Presentation from './Presentation';
+import CourseNotes from './CourseNotes';
 
 function App() {
   return (
@@ -24,76 +10,38 @@ function App() {
         <title>Keven Qiu</title>
     </header>
     <body>
-        <div id="root">
-            <div id="intro">
-                <h1>Keven Qiu</h1>
-                <a href="https://www.linkedin.com/in/keven-qiu/">LinkedIn</a> <a href="https://github.com/keven-qiu">GitHub</a>
-                <p>I am currently a 4th year undergraduate student double majoring in Computer Science and Combinatorics & Optimization at the <a href="https://uwaterloo.ca/">University of Waterloo</a>.
-                    <br />
-                    <br />
-                    My main academic interests are in algorithms and discrete mathematics, in particular, combinatorial optimization. I am also interested in artificial intelligence, machine learning, and neural networks.
-                    <br />
-                    <br />
-                    Email: keven.qiu@uwaterloo.ca
-                </p>
-            </div>
-            <div id="work">
-                <h2>Work Experience/Research</h2>
-                <ul>
-                    <li>Undergraduate Research Assistant at University of Waterloo, Department of Combinatorics & Optimization, under Dr. Joseph Cheriyan, funded by MURA (Fall 2024)</li>
-                    <li>Software Development Intern at <a href="https://www.calian.com/service-lines/advanced-technologies/">Calian, Advanced Technologies</a> (Spring 2024)</li>
-                    <li>Software Engineering Intern at <a href="https://www.augmenta.ai/">Augmenta AI</a> (Fall 2023)</li>
-                    <li>Undergraduate Research Assistant at <a href="https://mccaig.ucalgary.ca/">McCaig Institute of Bone and Joint Health, University of Calgary, under Dr. Sarah Manske</a> (Winter 2023)</li>
-                    <li>Software Development Intern at <a href="https://www.calian.com/service-lines/advanced-technologies/">Calian, Advanced Technologies</a> [Inmarsat GX6] (Spring 2022)</li>
-                    <li>Software Development Intern at <a href="https://www.calian.com/service-lines/advanced-technologies/">Calian, Advanced Technologies</a> [Inmarsat GX5] (Fall 2021)</li>
-                    <li>Mathematics Tutor at <a href="https://www.kumon.com/ca-en/">Kumon, North America</a></li>
-                </ul>
-            </div>
-            <div id="research">
-                <h2>Publications and Abstracts</h2>
-                <ul>
-                    <li>Waungana, T.H., Qiu, K., Tse, J.T., Anderson, D.D., Emery, C.A., Boyd, S.K., Manske, S.L. (2023). Accuracy of volumetric bone mineral density measurement in weight bearing, cone beam computed tomography. Journal of Clinical Densitometry. (Submitted)</li>
-                    <li>Tadiwa H. Waungana, Keven Qiu, Justin T. Tse, Donald D. Anderson, Sarah L. Manske. Accuracy of BMD measurement in weight bearing, cone-beam CT. The American Society for Bone and Mineral Research, 2023. Vancouver, BC, Canada.</li>
-                </ul>
-            </div>
-            <div id="presentations">
-                <h2>Presentations</h2>
-                <ul>
-                    <li>Augmenta Reading Group - Combinatorial Optimization.</li>
-                    <li>End of Undergraduate Research Term at UCalgary - BMD Measurement with Cone Beam, Weight-Bearing CT and Reconstruction Algorithms. <a href={calgPres}>[PPTX]</a></li>
-                </ul>
-            </div>
-            <div id="notes">
-                <h2>Personal Course Notes</h2>
-                <h3>General Math/Statistics</h3>
-                <ul>
-                    <li><a href={math235}>MATH 235: Linear Algebra 2 for Honours Mathematics</a></li>
-                    <li><a href={math237}>MATH 237: Calculus 3 for Honours Mathematics</a></li>
-                    <li><a href={math239}>MATH 239: Introduction to Combinatorics</a></li>
-                    <li><a href={stat231}>STAT 231: Statistics</a></li>
-                </ul>
-                <h3>Computer Science</h3>
-                <ul>
-                    <li><a href={cs341}>CS 341: Algorithms</a></li>
-                    <li><a href={cs350}>CS 350: Operating Systems</a></li>
-                    <li><a href={cs365}>CS 365: Models of Computation (Advanced)</a></li>
-                    <li><a href={cs370}>CS 370: Numerical Computation</a></li>
-                    <li><a href={cs466}>CS 466/666: Algorithm Design and Analysis</a></li>
-                    <li><a href={cs480}>CS 480/680: Introduction to Machine Learning</a></li>
-                </ul>
-                <h3>Combinatorics & Optimization</h3>
-                <ul>
-                    <li><a href={co250}>CO 250: Introduction to Optimization</a></li>
-                    <li><a href={co330}>CO 330: Combinatorial Enumeration</a></li>
-                    <li><a href={co342}>CO 342: Introduction to Graph Theory</a></li>
-                    <li><a href={co351}>CO 351: Network Flow Theory</a></li>
-                    <li><a href={co450}>CO 450/650: Combinatorial Optimization</a></li>
-                </ul>
-                <h3>Electives</h3>
-                <ul>
-                    <li><a href={econ102}>ECON 102: Introduction to Macroeconomics</a></li>
-                </ul>
-            </div>
+        <div className="intro">
+            <h1>Keven Qiu</h1>
+            <a href="https://www.linkedin.com/in/keven-qiu/">LinkedIn</a> <a href="https://github.com/keven-qiu">GitHub</a>
+            <p>I am currently a 4th year undergraduate student double majoring in Computer Science and Combinatorics & Optimization at the <a href="https://uwaterloo.ca/">University of Waterloo</a>.
+                <br />
+                <br />
+                My main academic interests are in algorithms, discrete mathematics, and optimization. I am also interested in artificial intelligence, machine learning, and neural networks.
+                <br />
+                <br />
+                Email: keven.qiu@uwaterloo.ca
+            </p>
+        </div>
+        <div className="work">
+            <h2>Work Experience/Research</h2>
+            <ul>
+                <li>Undergraduate Research Assistant at University of Waterloo, Department of Combinatorics & Optimization, under Dr. Joseph Cheriyan, funded by the MURA (Fall 2024)</li>
+                <li>Software Development Intern at <a href="https://www.calian.com/service-lines/advanced-technologies/">Calian, Advanced Technologies</a> (Spring 2024)</li>
+                <li>Software Engineering Intern at <a href="https://www.augmenta.ai/">Augmenta AI</a> (Fall 2023)</li>
+                <li>Undergraduate Research Assistant at University of Calgary, <a href="https://mccaig.ucalgary.ca/">McCaig Institute of Bone and Joint Health</a>, under Dr. Sarah Manske (Winter 2023)</li>
+                <li>Software Development Intern at <a href="https://www.calian.com/service-lines/advanced-technologies/">Calian, Advanced Technologies</a> [Inmarsat GX6] (Spring 2022)</li>
+                <li>Software Development Intern at <a href="https://www.calian.com/service-lines/advanced-technologies/">Calian, Advanced Technologies</a> [Inmarsat GX5] (Fall 2021)</li>
+                <li>Mathematics Tutor at <a href="https://www.kumon.com/ca-en/">Kumon, North America</a></li>
+            </ul>
+        </div>
+        <div className="research">
+            <Research />
+        </div>
+        <div className="presentations">
+            <Presentation />
+        </div>
+        <div className="notes">
+            <CourseNotes />
         </div>
     </body>
     </div>
