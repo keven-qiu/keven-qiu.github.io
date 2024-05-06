@@ -1,20 +1,20 @@
 import './App.css';
-import math235 from '../notes/MATH235.pdf';
-import math237 from '../notes/MATH237.pdf';
-import math239 from '../notes/MATH239.pdf';
-import stat231 from '../notes/STAT231.pdf';
-import cs341 from '../notes/CS341.pdf';
-import cs350 from '../notes/CS350.pdf';
-import cs365 from '../notes/CS365.pdf';
-import cs370 from '../notes/CS370.pdf';
-import cs466 from '../notes/CS466_666.pdf';
-import cs480 from '../notes/CS480_680.pdf';
-import co250 from '../notes/CO250.pdf';
-import co330 from '../notes/CO330.pdf';
-import co342 from '../notes/CO342.pdf';
-import co351 from '../notes/CO351.pdf';
-import co450 from '../notes/CO450_650.pdf';
-import econ102 from '../notes/ECON102.pdf';
+import math235 from './notes/MATH235.pdf';
+import math237 from './notes/MATH237.pdf';
+import math239 from './notes/MATH239.pdf';
+import stat231 from './notes/STAT231.pdf';
+import cs341 from './notes/CS341.pdf';
+import cs350 from './notes/CS350.pdf';
+import cs365 from './notes/CS365.pdf';
+import cs370 from './notes/CS370.pdf';
+import cs466 from './notes/CS466_666.pdf';
+import cs480 from './notes/CS480_680.pdf';
+import co250 from './notes/CO250.pdf';
+import co330 from './notes/CO330.pdf';
+import co342 from './notes/CO342.pdf';
+import co351 from './notes/CO351.pdf';
+import co450 from './notes/CO450_650.pdf';
+import econ102 from './notes/ECON102.pdf';
 
 function App() {
   return (
