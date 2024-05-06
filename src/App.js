@@ -1,4 +1,20 @@
 import './App.css';
+import math235 from '../notes/MATH235.pdf';
+import math237 from '../notes/MATH237.pdf';
+import math239 from '../notes/MATH239.pdf';
+import stat231 from '../notes/STAT231.pdf';
+import cs341 from '../notes/CS341.pdf';
+import cs350 from '../notes/CS350.pdf';
+import cs365 from '../notes/CS365.pdf';
+import cs370 from '../notes/CS370.pdf';
+import cs466 from '../notes/CS466_666.pdf';
+import cs480 from '../notes/CS480_680.pdf';
+import co250 from '../notes/CO250.pdf';
+import co330 from '../notes/CO330.pdf';
+import co342 from '../notes/CO342.pdf';
+import co351 from '../notes/CO351.pdf';
+import co450 from '../notes/CO450_650.pdf';
+import econ102 from '../notes/ECON102.pdf';
 
 function App() {
   return (
@@ -50,31 +66,31 @@ function App() {
                 <h2>Personal Course Notes</h2>
                 <h3>General Math/Statistics</h3>
                 <ul>
-                    <li><a href="https://keven-qiu.github.io/notes/MATH235.pdf">MATH 235: Linear Algebra 2 for Honours Mathematics</a></li>
-                    <li><a href="https://keven-qiu.github.io/notes/MATH237.pdf">MATH 237: Calculus 3 for Honours Mathematics</a></li>
-                    <li><a href="https://keven-qiu.github.io/notes/MATH239.pdf">MATH 239: Introduction to Combinatorics</a></li>
-                    <li><a href="https://keven-qiu.github.io/notes/STAT231.pdf">STAT 231: Statistics</a></li>
+                    <li><a href={math235}>MATH 235: Linear Algebra 2 for Honours Mathematics</a></li>
+                    <li><a href={math237}>MATH 237: Calculus 3 for Honours Mathematics</a></li>
+                    <li><a href={math239}>MATH 239: Introduction to Combinatorics</a></li>
+                    <li><a href={stat231}>STAT 231: Statistics</a></li>
                 </ul>
                 <h3>Computer Science</h3>
                 <ul>
-                    <li><a href="https://keven-qiu.github.io/notes/CS341.pdf">CS 341: Algorithms</a></li>
-                    <li><a href="https://keven-qiu.github.io/notes/CS350.pdf">CS 350: Operating Systems</a></li>
-                    <li><a href="https://keven-qiu.github.io/notes/CS365.pdf">CS 365: Models of Computation (Advanced)</a></li>
-                    <li><a href="https://keven-qiu.github.io/notes/CS370.pdf">CS 370: Numerical Computation</a></li>
-                    <li><a href="https://keven-qiu.github.io/notes/CS466_666.pdf">CS 466/666: Algorithm Design and Analysis</a></li>
-                    <li><a href="https://keven-qiu.github.io/notes/CS480_680.pdf">CS 480/680: Introduction to Machine Learning</a></li>
+                    <li><a href={cs341}>CS 341: Algorithms</a></li>
+                    <li><a href={cs350}>CS 350: Operating Systems</a></li>
+                    <li><a href={cs365}>CS 365: Models of Computation (Advanced)</a></li>
+                    <li><a href={cs370}>CS 370: Numerical Computation</a></li>
+                    <li><a href={cs466}>CS 466/666: Algorithm Design and Analysis</a></li>
+                    <li><a href={cs480}>CS 480/680: Introduction to Machine Learning</a></li>
                 </ul>
                 <h3>Combinatorics & Optimization</h3>
                 <ul>
-                    <li><a href="https://keven-qiu.github.io/notes/CO250.pdf">CO 250: Introduction to Optimization</a></li>
-                    <li><a href="https://keven-qiu.github.io/notes/CO330.pdf">CO 330: Combinatorial Enumeration</a></li>
-                    <li><a href="https://keven-qiu.github.io/notes/CO342.pdf">CO 342: Introduction to Graph Theory</a></li>
-                    <li><a href="https://keven-qiu.github.io/notes/CO351.pdf">CO 351: Network Flow Theory</a></li>
-                    <li><a href="https://keven-qiu.github.io/notes/CO450_650.pdf">CO 450/650: Combinatorial Optimization</a></li>
+                    <li><a href={co250}>CO 250: Introduction to Optimization</a></li>
+                    <li><a href={co330}>CO 330: Combinatorial Enumeration</a></li>
+                    <li><a href={co342}>CO 342: Introduction to Graph Theory</a></li>
+                    <li><a href={co351}>CO 351: Network Flow Theory</a></li>
+                    <li><a href={co450}>CO 450/650: Combinatorial Optimization</a></li>
                 </ul>
                 <h3>Electives</h3>
                 <ul>
-                    <li><a href="https://keven-qiu.github.io/notes/ECON102.pdf">ECON 102: Introduction to Macroeconomics</a></li>
+                    <li><a href={econ102}>ECON 102: Introduction to Macroeconomics</a></li>
                 </ul>
             </div>
         </div>
