@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.2c1fd3bb.css",
-    "main.js": "/static/js/main.93c17629.js",
+    "main.js": "/static/js/main.ad69e1b4.js",
     "static/js/453.db3299aa.chunk.js": "/static/js/453.db3299aa.chunk.js",
+    "static/media/End of Term Presentation.pptx": "/static/media/End of Term Presentation.e5ce24f59fb059c3d13f.pptx",
     "static/media/CS480_680.pdf": "/static/media/CS480_680.7fbe0118496cf76da677.pdf",
     "static/media/STAT231.pdf": "/static/media/STAT231.d0396babdccab78c3404.pdf",
     "static/media/CS350.pdf": "/static/media/CS350.3a94123fd46283ca8326.pdf",
@@ -21,11 +22,11 @@
     "static/media/MATH235.pdf": "/static/media/MATH235.b425ed9144cd6e062eee.pdf",
     "index.html": "/index.html",
     "main.2c1fd3bb.css.map": "/static/css/main.2c1fd3bb.css.map",
-    "main.93c17629.js.map": "/static/js/main.93c17629.js.map",
+    "main.ad69e1b4.js.map": "/static/js/main.ad69e1b4.js.map",
     "453.db3299aa.chunk.js.map": "/static/js/453.db3299aa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2c1fd3bb.css",
-    "static/js/main.93c17629.js"
+    "static/js/main.ad69e1b4.js"
   ]
 }
