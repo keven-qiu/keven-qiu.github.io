@@ -15,6 +15,7 @@ import co342 from './notes/CO342.pdf';
 import co351 from './notes/CO351.pdf';
 import co450 from './notes/CO450_650.pdf';
 import econ102 from './notes/ECON102.pdf';
+import calgPres from './presentations/End of Term Presentation.pptx'
 
 function App() {
   return (
@@ -59,7 +60,7 @@ function App() {
                 <h2>Presentations</h2>
                 <ul>
                     <li>Augmenta Reading Group - Combinatorial Optimization.</li>
-                    <li>End of Undergraduate Research Term at UCalgary - BMD Measurement with Cone Beam, Weight-Bearing CT and Reconstruction Algorithms. <a href="https://keven-qiu.github.io/presentations/End of Term Presentation.pptx">[PPTX]</a></li>
+                    <li>End of Undergraduate Research Term at UCalgary - BMD Measurement with Cone Beam, Weight-Bearing CT and Reconstruction Algorithms. <a href={calgPres}>[PPTX]</a></li>
                 </ul>
             </div>
             <div id="notes">
