@@ -1,15 +1,31 @@
 {
   "files": {
     "main.css": "/static/css/main.2c1fd3bb.css",
-    "main.js": "/static/js/main.f3e37ead.js",
+    "main.js": "/static/js/main.93c17629.js",
     "static/js/453.db3299aa.chunk.js": "/static/js/453.db3299aa.chunk.js",
+    "static/media/CS480_680.pdf": "/static/media/CS480_680.7fbe0118496cf76da677.pdf",
+    "static/media/STAT231.pdf": "/static/media/STAT231.d0396babdccab78c3404.pdf",
+    "static/media/CS350.pdf": "/static/media/CS350.3a94123fd46283ca8326.pdf",
+    "static/media/CS466_666.pdf": "/static/media/CS466_666.8a03ec6fdb3483176c99.pdf",
+    "static/media/CO351.pdf": "/static/media/CO351.e55c2d9a017c5c92b20f.pdf",
+    "static/media/CO330.pdf": "/static/media/CO330.80f4cb36318d6fe7ae75.pdf",
+    "static/media/CS365.pdf": "/static/media/CS365.10d43cf86fa7cfe23950.pdf",
+    "static/media/CO250.pdf": "/static/media/CO250.d76cdd4191f4980af696.pdf",
+    "static/media/CO450_650.pdf": "/static/media/CO450_650.932e5c2a701f58f8d84a.pdf",
+    "static/media/CS370.pdf": "/static/media/CS370.4f6ddc095fd2b763b248.pdf",
+    "static/media/CS341.pdf": "/static/media/CS341.69d775c7cf4ef080a97d.pdf",
+    "static/media/CO342.pdf": "/static/media/CO342.b7ec933dbc765272fa67.pdf",
+    "static/media/ECON102.pdf": "/static/media/ECON102.8c6b6cc3ebb346f53992.pdf",
+    "static/media/MATH237.pdf": "/static/media/MATH237.705e37b1854971af6190.pdf",
+    "static/media/MATH239.pdf": "/static/media/MATH239.13069b0707fb9a124804.pdf",
+    "static/media/MATH235.pdf": "/static/media/MATH235.b425ed9144cd6e062eee.pdf",
     "index.html": "/index.html",
     "main.2c1fd3bb.css.map": "/static/css/main.2c1fd3bb.css.map",
-    "main.f3e37ead.js.map": "/static/js/main.f3e37ead.js.map",
+    "main.93c17629.js.map": "/static/js/main.93c17629.js.map",
     "453.db3299aa.chunk.js.map": "/static/js/453.db3299aa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2c1fd3bb.css",
-    "static/js/main.f3e37ead.js"
+    "static/js/main.93c17629.js"
   ]
 }
