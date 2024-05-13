@@ -13,10 +13,10 @@ function App() {
         <div className="intro">
             <h1>Keven Qiu</h1>
             <a href="https://www.linkedin.com/in/keven-qiu/">LinkedIn</a> <a href="https://github.com/keven-qiu">GitHub</a>
-            <p>I am currently a 4th year undergraduate student double majoring in Computer Science and Combinatorics & Optimization at the <a href="https://uwaterloo.ca/">University of Waterloo</a>.
+            <p>I am a 4th year undergraduate student double majoring in Computer Science and Combinatorics & Optimization at the <a href="https://uwaterloo.ca/">University of Waterloo</a>.
                 <br />
                 <br />
-                My main academic interests are in algorithms, discrete mathematics, and optimization. I am also interested in artificial intelligence, machine learning, and neural networks.
+                My main academic interests are in algorithms, discrete mathematics, and optimization. I will be undergoing research in designing and analyzing approximation algorithms for combinatorial optimization problems. I am also interested in artificial intelligence, machine learning, and neural networks.
                 <br />
                 <br />
                 Email: keven.qiu@uwaterloo.ca
