@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Research from './Research';
 import Presentation from './Presentation';
