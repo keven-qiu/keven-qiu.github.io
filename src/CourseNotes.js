@@ -10,7 +10,7 @@ const CourseNotes = () => {
                 <li><a href={process.env.PUBLIC_URL + '/notes/MATH237.pdf'}>MATH 237: Calculus 3 for Honours Mathematics</a></li>
                 <li><a href={process.env.PUBLIC_URL + '/notes/MATH239.pdf'}>MATH 239: Introduction to Combinatorics</a></li>
                 <li><a href={process.env.PUBLIC_URL + '/notes/STAT231.pdf'}>STAT 231: Statistics</a></li>
-                <li><a href={process.env.PUBLIC_URL + '/notes/PMATH336-1.pdf'}>PMATH 336: Introduction to Group Theory</a></li>
+                <li><a href={process.env.PUBLIC_URL + '/notes/PMATH336.pdf'}>PMATH 336: Introduction to Group Theory</a></li>
             </ul>
             <h3>Computer Science</h3>
             <ul>
