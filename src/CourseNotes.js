@@ -20,7 +20,7 @@ const CourseNotes = () => {
                 <li><a href={process.env.PUBLIC_URL + '/notes/CS370.pdf'}>CS 370: Numerical Computation</a></li>
                 <li><a href={process.env.PUBLIC_URL + '/notes/CS466_666.pdf'}>CS 466/666: Algorithm Design and Analysis</a></li>
                 <li><a href={process.env.PUBLIC_URL + '/notes/CS480_680.pdf'}>CS 480/680: Introduction to Machine Learning</a></li>
-                <li><a href={process.env.PUBLIC_URL + '/notes/CS487_687.pdf'}>CS 480/680: Introduction to Symbolic Computation</a></li>
+                <li><a href={process.env.PUBLIC_URL + '/notes/CS487_687.pdf'}>CS 487/688: Introduction to Symbolic Computation</a></li>
             </ul>
             <h3>Combinatorics & Optimization</h3>
             <ul>
