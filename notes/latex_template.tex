@@ -1,0 +1,128 @@
+\documentclass[12pt]{article}
+% \documentclass[12pt]{report}
+
+\setlength{\parskip}{1.5ex}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,amsfonts,enumerate,nicefrac,hyperref,fancyhdr,diffcoeff,tabularx}
+\usepackage{algorithm,algorithmicx}
+\usepackage[noend]{algpseudocode}
+\usepackage{mathtools}
+\usepackage{graphicx}
+\usepackage[shortlabels]{enumitem}
+\usepackage[most]{tcolorbox}
+\usepackage{tikz}
+\newcommand{\bb}[1]{\mathbb{#1}}
+\newcommand{\mc}[1]{\mathcal{#1}}
+\newcommand{\tbf}[1]{\textbf{#1}}
+\newcommand{\ds}{\displaystyle}
+\def\F{{\mathbb{F}}}
+\def\Q{{\mathbb{Q}}}
+\def\Z{{\mathbb{Z}}}
+\def\N{{\mathbb{N}}}
+\def\R{{\mathbb{R}}}
+\def\K{{\mathbb{K}}}
+\def\C{{\mathbb{C}}}
+\def\A{{\mathbb{A}}}
+\def\P{{\mathbb{P}}}
+\def\E{{\mathbb{E}}}
+\def\V{{\mathbb{V}}}
+% \newcommand{\df}[1]{\textbf{Def #1}:}
+% \newcommand{\thm}[1]{\textbf{Theorem #1}}
+% \newcommand{\cor}[1]{\textbf{Corollary #1}}
+% \newcommand{\pp}[1]{\textbf{Proposition #1}}
+% \newcommand{\lma}[1]{\textbf{Lemma #1}}
+\newcommand{\prf}{\textbf{\textit{Proof. }}}
+\newcommand{\mbf}[1]{\mathbf{#1}}
+\newcommand{\mrm}[1]{\mathrm{#1}}
+\newcommand{\ip}[1]{\left\langle#1\right\rangle}
+\newcommand{\abs}[1]{\left\lvert#1\right\rvert}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\ceil}[1]{\left\lceil#1\right\rceil}
+\newcommand{\floor}[1]{\left\lfloor#1\right\rfloor}
+\newcommand{\ol}[1]{\overline{#1}}
+\newcommand{\ul}[1]{\underline{#1}}
+\newcommand{\ob}[1]{\overbrace{#1}}
+\newcommand{\ub}[1]{\underbrace{#1}}
+\newcommand{\antidiff}[4]{\int\limits_{#1}^{#2}#3\,d#4}
+\newcommand{\antiidiff}[5]{\iint\limits_{#1}^{#2}#3\,d#4\,d#5}
+\newcommand{\antiiidiff}[6]{\iiint\limits_{#1}^{#2}#3\,d#4\,d#5\,d#6}
+\newcommand{\opname}[1]{\operatorname{#1}}
+\newcommand{\pmat}[1]{\ensuremath{\begin{pmatrix} #1 \end{pmatrix}}}
+\newcommand{\bmat}[1]{\ensuremath{\begin{bmatrix} #1 \end{bmatrix}}}
+\newcommand{\qbinom}[2]{\genfrac[]{0pt}{}{#1}{#2}_q}
+\newcommand{\stirling}[2]{\genfrac\{\}{0pt}{}{#1}{#2}}
+\newcommand{\paren}[1]{\left(#1\right)}
+\newcommand{\sbrack}[1]{\left[#1\right]}
+\newcommand{\cbrack}[1]{\left\{#1\right\}}
+\newcommand{\st}{\text{s.t.}}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\rank}{rank}
+\DeclareMathOperator*{\oc}{oc}
+\DeclareMathOperator*{\defic}{def}
+
+\renewcommand{\qed}{\hfill$\blacksquare$}
+
+\newcommand{\tbfbox}[2]{\begin{tcolorbox}[title=#1,colback=black!5!white,colbacktitle=black!15!white,coltitle=black,boxrule=0pt,fonttitle=\bfseries,rightrule=0pt,bottomrule=0pt,toprule=0pt,leftrule=1mm]#2\end{tcolorbox}}
+\newcommand{\df}[2]{\begin{tcolorbox}[title=Definition: #1,colback=cyan!10!white,colbacktitle=cyan!35!white,coltitle=black,boxrule=0pt,fonttitle=\bfseries,rightrule=0pt,bottomrule=0pt,toprule=0pt,leftrule=1mm,colframe=cyan!80!black]#2\end{tcolorbox}}
+\newcommand{\pp}[2]{\begin{tcolorbox}[title=Proposition #1,colback=green!10!white,colbacktitle=green!30!white,coltitle=black,boxrule=0pt,fonttitle=\bfseries,rightrule=0pt,bottomrule=0pt,toprule=0pt,leftrule=1mm,colframe=green!80!black]#2\end{tcolorbox}}
+\newcommand{\thm}[2]{\begin{tcolorbox}[title=Theorem #1,colback=red!10!white,colbacktitle=red!30!white,coltitle=black,boxrule=0pt,fonttitle=\bfseries,rightrule=0pt,bottomrule=0pt,toprule=0pt,leftrule=1mm,colframe=red!80!black]#2\end{tcolorbox}}
+\newcommand{\lma}[2]{\begin{tcolorbox}[title=Lemma #1,colback=red!10!white,colbacktitle=red!30!white,coltitle=black,boxrule=0pt,fonttitle=\bfseries,rightrule=0pt,bottomrule=0pt,toprule=0pt,leftrule=1mm,colframe=red!80!black]#2\end{tcolorbox}}
+\newcommand{\cor}[2]{\begin{tcolorbox}[title=Corollary #1,colback=violet!10!white,colbacktitle=violet!25!white,coltitle=black,boxrule=0pt,fonttitle=\bfseries,rightrule=0pt,bottomrule=0pt,toprule=0pt,leftrule=1mm,colframe=violet!80!black]#2\end{tcolorbox}}
+
+\begin{document}
+% Assignment Header
+% \setlength{\headheight}{33.24544pt}
+% \pagestyle{fancy}
+% \fancyhead[L]{\bf\large Course \\ Assignment k}
+% \fancyhead[R]{\bf\large Keven Qiu}
+\parindent=0pt
+%\setcounter{section}{0} %
+%\begin{flushright}
+%Keven Qiu
+%\end{flushright}
+%
+%\author{Keven Qiu}
+%\title{\vspace{-15mm}\bf Title\vspace{-5mm}}
+%\date{}
+%\maketitle
+%
+%\thispagestyle{empty}
+%
+%\tableofcontents
+%
+%\newpage
+
+\section{}
+
+\end{document}
+
+%%%%%%% Insert table %%%%%%%
+% \begin{table}[ht]
+% \begin{center}
+% \begin{tabular}{|c|c|}
+%     \hline
+%     \hline
+% \end{tabular}
+% \end{center}
+% \end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%% Insert figure %%%%%%%
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\textwidth]{} % scale=0.5
+% \end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \newtcolorbox{tbfbox}[2][]{title=#2,colback=black!5!white,colbacktitle=black!30!white,coltitle=black,arc=1mm,boxrule=1pt,fonttitle=\bfseries}
+% \newtcolorbox{df}[2][]{title=Definition: #2,colback=blue!15!white,colbacktitle=blue!30!white,coltitle=black,arc=1mm,boxrule=1pt,fonttitle=\bfseries}
+% \newtcolorbox{pp}[2][]{title=Proposition #2,colback=green!15!white,colbacktitle=green!30!white,coltitle=black,arc=1mm,boxrule=1pt,fonttitle=\bfseries}
+% \newtcolorbox{thm}[2][]{title= Theorem #2,colback=red!15!white,colbacktitle=red!40!white,coltitle=black,arc=1mm,boxrule=1pt,fonttitle=\bfseries}
+% \newtcolorbox{lma}[2][]{title=Lemma #2,colback=red!15!white,colbacktitle=red!30!white,coltitle=black,arc=1mm,boxrule=1pt,fonttitle=\bfseries}
+% \newtcolorbox{cor}[2][]{title=Corollary #2,colback=purple!20!white,colbacktitle=purple!40!white,coltitle=black,arc=1mm,boxrule=1pt,fonttitle=\bfseries}
