@@ -3,8 +3,8 @@ import React from 'react';
 const CourseNotes = () => {
     return (
         <>
-            <h2>Personal Course Notes</h2>
-            <h3>General Math/Statistics</h3>
+            <h2>Notes</h2>
+            <h3>University of Waterloo</h3>
             <ul>
                 <li><a href={process.env.PUBLIC_URL + '/notes/MATH235.pdf'}>MATH 235: Linear Algebra 2 for Honours Mathematics</a></li>
                 <li><a href={process.env.PUBLIC_URL + '/notes/MATH237.pdf'}>MATH 237: Calculus 3 for Honours Mathematics</a></li>
@@ -12,7 +12,6 @@ const CourseNotes = () => {
                 <li><a href={process.env.PUBLIC_URL + '/notes/STAT231.pdf'}>STAT 231: Statistics</a></li>
                 <li><a href={process.env.PUBLIC_URL + '/notes/PMATH336.pdf'}>PMATH 336: Introduction to Group Theory</a></li>
             </ul>
-            <h3>Computer Science</h3>
             <ul>
                 <li><a href={process.env.PUBLIC_URL + '/notes/CS341.pdf'}>CS 341: Algorithms</a></li>
                 <li><a href={process.env.PUBLIC_URL + '/notes/CS350.pdf'}>CS 350: Operating Systems</a></li>
@@ -22,7 +21,6 @@ const CourseNotes = () => {
                 <li><a href={process.env.PUBLIC_URL + '/notes/CS480_680.pdf'}>CS 480/680: Introduction to Machine Learning</a></li>
                 <li><a href={process.env.PUBLIC_URL + '/notes/CS487_687.pdf'}>CS 487/688: Introduction to Symbolic Computation</a></li>
             </ul>
-            <h3>Combinatorics & Optimization</h3>
             <ul>
                 <li><a href={process.env.PUBLIC_URL + '/notes/CO250.pdf'}>CO 250: Introduction to Optimization</a></li>
                 <li><a href={process.env.PUBLIC_URL + '/notes/CO330.pdf'}>CO 330: Combinatorial Enumeration</a></li>
@@ -31,7 +29,6 @@ const CourseNotes = () => {
                 <li><a href={process.env.PUBLIC_URL + '/notes/CO444_644.pdf'}>CO 444/644: Algebraic Graph Theory</a></li>
                 <li><a href={process.env.PUBLIC_URL + '/notes/CO450_650.pdf'}>CO 450/650: Combinatorial Optimization</a></li>
             </ul>
-            <h3>Electives</h3>
             <ul>
                 <li><a href={process.env.PUBLIC_URL + '/notes/ECON102.pdf'}>ECON 102: Introduction to Macroeconomics</a></li>
             </ul>
