@@ -7,21 +7,34 @@ body {
 
 a:link {
     text-decoration: none;
-    color: cyan;
+    color: #59C2F9;
 }
 a:visited { 
     text-decoration: none; 
-    color: cyan; 
+    color: #59C2F9; 
 }
 a:hover {
     text-decoration: none;
-    color:greenyellow;
+    color:rgb(101, 251, 154);
 }
 a:focus {
     text-decoration: none;
-    color:cyan;
+    color:#59C2F9;
 }
 a:active {
     text-decoration: none;
-    color:cyan;
+    color:#59C2F9;
+}
+
+a.contacts:link,
+a.contacts:visited,
+a.contacts:focus,
+a.contacts:active {
+    text-decoration: none;
+    color: #FF6B6B;
+}
+
+a.contacts:hover {
+    text-decoration: none;
+    color: rgb(101, 251, 154);
 }

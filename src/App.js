@@ -13,12 +13,11 @@ function App() {
     <body>
         <div className="intro">
             <h1>Keven Qiu</h1>
-            <a href="https://www.linkedin.com/in/keven-qiu/">LinkedIn</a> <a href="https://github.com/keven-qiu">GitHub</a>
             <p>
-                I am a recent graduate of the University of Waterloo, double majoring in Computer Science and Combinatorics & Optimization. I will be joining the Algorithmics group at the University of Alberta for my Masters in Fall 2025, cosupervised by <a href="https://webdocs.cs.ualberta.ca/~mreza/">Mohammad R. Salavatipour</a> and <a href="https://friggstad.github.io/">Zachary Friggstad</a>.
+                I am a recent graduate of the University of Waterloo, double majoring in Computer Science and Combinatorics & Optimization. I will be joining the Algorithmics group at the University of Alberta for my Masters starting in Fall 2025, cosupervised by <a href="https://webdocs.cs.ualberta.ca/~mreza/">Mohammad R. Salavatipour</a> and <a href="https://friggstad.github.io/">Zachary Friggstad</a>.
                 <br />
                 <br />
-                My main academic interests are in algorithms, discrete mathematics, and optimization. I am focused on the design and analysis of approximation algorithms.
+                My main interests are in algorithms, discrete mathematics, and optimization. I am focused on the design and analysis of algorithms for combinatorial problems.
                 <br />
                 <br />
                 Email: keven.qiu@uwaterloo.ca
@@ -44,6 +43,9 @@ function App() {
         </div>
         <div className="notes">
             <CourseNotes />
+        </div>
+        <div>
+            <a href="https://www.linkedin.com/in/keven-qiu/" class="contacts">LinkedIn</a> <a href="https://github.com/keven-qiu" class="contacts">GitHub</a>
         </div>
     </body>
     </div>
