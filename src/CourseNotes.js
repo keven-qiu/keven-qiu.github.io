@@ -4,6 +4,11 @@ const CourseNotes = () => {
     return (
         <>
             <h2>Notes</h2>
+            <h3>University of Alberta</h3>
+            <ul>
+                <li><a href={process.env.PUBLIC_URL}>CMPUT 501: Advanced Algorithms</a></li>
+                <li><a href={process.env.PUBLIC_URL}>CMPUT 605: Approximation Algorithms</a> (Study/Topics) Course</li>
+            </ul>
             <h3>University of Waterloo</h3>
             <ul>
                 <li><a href={process.env.PUBLIC_URL + '/notes/MATH235.pdf'}>MATH 235: Linear Algebra 2 for Honours Mathematics</a></li>

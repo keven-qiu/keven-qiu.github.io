@@ -14,25 +14,23 @@ function App() {
         <div className="intro">
             <h1>Keven Qiu</h1>
             <p>
-                I am a recent graduate of the University of Waterloo, double majoring in Computer Science and Combinatorics & Optimization. I will be joining the Algorithmics group at the University of Alberta for my Masters starting in Fall 2025, cosupervised by <a href="https://webdocs.cs.ualberta.ca/~mreza/">Mohammad R. Salavatipour</a> and <a href="https://friggstad.github.io/">Zachary Friggstad</a>.
+                I am a 1st year CS MSc student at the Algorithmics group at the University of Alberta, where I am cosupervised by <a href="https://webdocs.cs.ualberta.ca/~mreza/">Mohammad R. Salavatipour</a> and <a href="https://friggstad.github.io/">Zachary Friggstad</a>. Previously, I was an undergraduate student at the University of Waterloo, double majoring in Computer Science and Combinatorics & Optimization.
                 <br />
                 <br />
                 My main interests are in algorithms, discrete mathematics, and optimization. I am focused on the design and analysis of algorithms for combinatorial problems.
                 <br />
                 <br />
-                Email: keven.qiu@uwaterloo.ca
+                Email: [first] [dot] [last] [at] ualberta [dot] ca
             </p>
         </div>
         <div className="work">
             <h2>Previous Experience</h2>
             <ul>
-                <li>Undergraduate Research Assistant at University of Waterloo, Department of Combinatorics & Optimization, under Dr. Joseph Cheriyan. <a href="https://github.com/keven-qiu/PrimalDualSmallCuts">[Github]</a></li>
-                <li>Software Development Intern at <a href="https://www.calian.com/service-lines/advanced-technologies/">Calian, Advanced Technologies</a> (Spring 2024)</li>
-                <li>Software Engineering Intern at <a href="https://www.augmenta.ai/">Augmenta AI</a> (Fall 2023)</li>
-                <li>Undergraduate Research Assistant at University of Calgary, <a href="https://mccaig.ucalgary.ca/">McCaig Institute of Bone and Joint Health</a>, under Dr. Sarah Manske (Winter 2023)</li>
-                <li>Software Development Intern at <a href="https://www.calian.com/service-lines/advanced-technologies/">Calian, Advanced Technologies</a> [Inmarsat GX6] (Spring 2022)</li>
-                <li>Software Development Intern at <a href="https://www.calian.com/service-lines/advanced-technologies/">Calian, Advanced Technologies</a> [Inmarsat GX5] (Fall 2021)</li>
-                <li>Mathematics Tutor at <a href="https://www.kumon.com/ca-en/">Kumon, North America</a></li>
+                <li>Graduate Teaching Assistant at Department of Computing Science, University of Alberta.</li>
+                <li>Undergraduate Research Assistant at Department of Combinatorics & Optimization, University of Waterloo, advised by <a href="https://www.math.uwaterloo.ca/~jcheriya/">Joseph Cheriyan</a>.</li>
+                <li>Software Engineering Intern at <a href="https://www.augmenta.ai/">Augmenta AI</a> (Fall 2023).</li>
+                <li>Undergraduate Research Assistant at McCaig Institute of Bone and Joint Health, University of Calgary, advised by <a href="https://cumming.ucalgary.ca/departments/radiology/profiles/sarah-manske">Sarah Manske</a> (Winter 2023).</li>
+                <li>Software Development Intern at <a href="https://www.calian.com/service-lines/advanced-technologies/">Calian, Advanced Technologies</a> (Fall 2021, Spring 2022, Spring 2024).</li>
             </ul>
         </div>
         <div className="research">
