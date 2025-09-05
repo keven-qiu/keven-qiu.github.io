@@ -14,7 +14,7 @@ function App() {
         <div className="intro">
             <h1>Keven Qiu</h1>
             <p>
-                I am a 1st year CS MSc student at the Algorithmics group at the University of Alberta, where I am cosupervised by <a href="https://webdocs.cs.ualberta.ca/~mreza/">Mohammad R. Salavatipour</a> and <a href="https://friggstad.github.io/">Zachary Friggstad</a>. Previously, I was an undergraduate student at the University of Waterloo, double majoring in Computer Science and Combinatorics & Optimization.
+                I am a 1st year CS MSc student in the Algorithmics group at the University of Alberta, where I am cosupervised by <a href="https://webdocs.cs.ualberta.ca/~mreza/">Mohammad R. Salavatipour</a> and <a href="https://friggstad.github.io/">Zachary Friggstad</a>. Previously, I was an undergraduate student at the University of Waterloo, double majoring in Computer Science and Combinatorics & Optimization.
                 <br />
                 <br />
                 My main interests are in algorithms, discrete mathematics, and optimization. I am focused on the design and analysis of algorithms for combinatorial problems.
