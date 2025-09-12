@@ -7,7 +7,7 @@ const CourseNotes = () => {
             <h3>University of Alberta</h3>
             <ul>
                 <li><a href={process.env.PUBLIC_URL}>CMPUT 501: Advanced Algorithms</a></li>
-                <li><a href={process.env.PUBLIC_URL}>CMPUT 605: Approximation Algorithms</a></li>
+                <li><a href={process.env.PUBLIC_URL + '/notes/CMPUT605.pdf'}>CMPUT 605: Approximation Algorithms</a></li>
             </ul>
             <h3>University of Waterloo</h3>
             <ul>
