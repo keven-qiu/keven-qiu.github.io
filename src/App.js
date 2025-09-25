@@ -17,7 +17,7 @@ function App() {
                 I am a 1st year CS MSc student in the Algorithmics group at the University of Alberta, where I am cosupervised by <a href="https://webdocs.cs.ualberta.ca/~mreza/">Mohammad R. Salavatipour</a> and <a href="https://friggstad.github.io/">Zachary Friggstad</a>. Previously, I was an undergraduate student at the University of Waterloo, double majoring in Computer Science and Combinatorics & Optimization.
                 <br />
                 <br />
-                My main interests are in algorithms, discrete mathematics, and optimization. I am focused on the design and analysis of algorithms for combinatorial problems.
+                My main interests are in algorithms, combinatorics, and optimization. Specifically, I am focused on the design and analysis of approximation algorithms for NP-hard combinatorial problems.
                 <br />
                 <br />
                 Email: [first] [dot] [last] [at] ualberta [dot] ca
