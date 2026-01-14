@@ -6,8 +6,10 @@ const CourseNotes = () => {
             <h2>Notes</h2>
             <h3>University of Alberta</h3>
             <ul>
+                <li><a href={process.env.PUBLIC_URL + '/notes/CMPUT605.pdf'}>CMPUT 605: Approximation Algorithms and Approximability</a></li>
                 <li><a href={'https://webdocs.cs.ualberta.ca/~mreza/courses/AdvancedF25/index.html'}>CMPUT 501: Advanced Algorithms</a></li>
-                <li><a href={process.env.PUBLIC_URL + '/notes/CMPUT605.pdf'}>CMPUT 605: Approximation Algorithms</a></li>
+                <li><a href={'https://marthawhite.github.io/machinelearning2/ml2-notes.pdf'}>CMPUT 567: Machine Learning 2</a></li>
+                <li><a href={process.env.PUBLIC_URL + '/notes/CMPUT670.pdf'}>CMPUT 670: Combinatorial Game Theory</a></li>
             </ul>
             <h3>University of Waterloo</h3>
             <ul>
