@@ -14,10 +14,10 @@ function App() {
         <div className="intro">
             <h1>Keven Qiu</h1>
             <p>
-                I am a 1st year CS MSc student in the Algorithmics group at the University of Alberta, where I am cosupervised by <a href="https://webdocs.cs.ualberta.ca/~mreza/">Mohammad R. Salavatipour</a> and <a href="https://friggstad.github.io/">Zachary Friggstad</a>. Previously, I was an undergraduate student at the University of Waterloo, double majoring in Computer Science and Combinatorics & Optimization.
+                I am a first year CS MSc student in the Algorithmics group at the University of Alberta, where I am cosupervised by <a href="https://webdocs.cs.ualberta.ca/~mreza/">Mohammad R. Salavatipour</a> and <a href="https://friggstad.github.io/">Zachary Friggstad</a>. Previously, I was an undergraduate at the University of Waterloo, double majoring in Computer Science and Combinatorics & Optimization. I was fortunate enough to be supervised by <a href="https://www.math.uwaterloo.ca/~jcheriya/">Joseph Cheriyan</a> during my time there.
                 <br />
                 <br />
-                My main interests are in algorithms, combinatorics, and optimization. Specifically, I am focused on the design and analysis of approximation algorithms for NP-hard combinatorial problems.
+                My research involves the design and analysis of approximation algorithms for NP-hard combinatorial problems.
                 <br />
                 <br />
                 Email: [first] [dot] [last] [at] ualberta [dot] ca
